@@ -1,4 +1,4 @@
-module github.com/unstppbl/tgbottemplate
+module tgbottemplate
 
 go 1.15
 

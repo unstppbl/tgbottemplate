@@ -10,11 +10,6 @@ import (
 	tgbotapi "gopkg.in/telegram-bot-api.v4"
 )
 
-const (
-	stateSubscribe   = "sub"
-	stateUnsubscribe = "unsub"
-)
-
 func (app *appStruct) webhookHandler(c *gin.Context) {
 	defer c.Request.Body.Close()
 
